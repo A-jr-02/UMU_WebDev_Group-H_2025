@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.navbar-brand {
+    
+    overflow: hidden;
+    color: yellowgreen;
+}
+.navbar-brand a {
+    float: left;
+    display: flex;
+    color: rgb(61, 20, 20);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-nav a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar-nav a:hover {
+    background-color: yellowgreen;
+    color: rgb(235, 220, 220);
+}
+.nav-link{
+    text-decoration: rgb(181, 129, 61);
+}
+
+/* Container that holds multiple cards in rows */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    
+}
+
+.card:hover{
+    /* transform: translateY(-10px); */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    color:black ;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card-text {
+    color:chocolate;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+/* Ensure images inside a card fill the card area without distortion */
+.card-img-top,
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.btn-primary {
+    background-color: rgb(84, 91, 75);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    background-color: #8b0000;
+}
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Read-more hidden content */
+.more-content {
+    display: none;
+    margin-top: 12px;
+    color: #444;
+    font-size: 14px;
+}
+.more-content.open {
+    display: block;
+}
+body{
+    background-color: #e265653d;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: url("./grilled\ chicken.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.small-cards{
+    display: flex; 
+}
+.card:hover{
+    background: url("./french-fries.jpg");
+    box-shadow: 0 12px 25px rgba(216, 195, 195, 0.3);
+    transform: transpalentX(-5px);
+    color: thistle;
+     transform: translateY(-10px);
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.card{
+    border-radius: 30px;
+}
