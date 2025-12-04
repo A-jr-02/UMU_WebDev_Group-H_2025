@@ -1,0 +1,51 @@
+.parent-card{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    /* background-color: rgb(184, 184, 180); */
+
+}
+.card:hover{
+   background-color:rgb(55, 55, 56);
+   box-shadow: 0 12px 25px rgb(245, 167, 155);
+   transform: translateX(-5px);
+   color:blanchedalmond;
+}
+.card-body{
+    text-align: center;
+}
+.h3{
+    justify-content: center;
+}
+.navbar{
+    background-color: yellow;
+}
+.nav-link{
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+     color:green;
+    border-radius: 10px;
+    box-shadow: 0 12px 25px;
+}
+.class-img-top{
+  
+    border-radius: 50%;
+}
+.footer{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+.navbar-brand:hover{
+transform: translateX(-5px);
+   color: yellow;
+}
+
+body{
+    background-color: #eff2f3;
+}
